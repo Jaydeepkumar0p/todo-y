@@ -6,6 +6,12 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+# Ignore environment files
+# Ignore environment files
+backend/frontend/node_modules/
+backend/frontend/build/
+backend/frontend/.env
+
 
 node_modules
 dist
@@ -22,3 +28,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
