@@ -25,7 +25,7 @@ app.use("/api/v1", auth);
 app.use("/api/v2", list);
 
 // Serve static frontend files
-const frontendPath = path.resolve(__dirname, "../backend/frontend/dist"); // Adjusted path
+const frontendPath = path.resolve(__dirname, "./frontend/dist"); // Adjusted path
 app.use(express.static(frontendPath));
 
 app.get("*", (req, res) => {
